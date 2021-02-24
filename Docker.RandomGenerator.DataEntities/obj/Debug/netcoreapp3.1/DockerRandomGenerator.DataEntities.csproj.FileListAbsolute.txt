@@ -1,0 +1,9 @@
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\bin\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.deps.json
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\bin\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.dll
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\bin\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.pdb
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.csprojAssemblyReference.cache
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.AssemblyInfoInputs.cache
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.AssemblyInfo.cs
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.csproj.CoreCompileInputs.cache
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.dll
+C:\DockerRandomGenerator\DockerRandomGenerator.DataEntities\obj\Debug\netcoreapp3.1\DockerRandomGenerator.DataEntities.pdb

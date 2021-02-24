@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Docker.RandomGenerator.DataEntities\Docker.RandomGenerator.DataEntities.csproj" />
+    <ProjectReference Include="..\Docker.RandomGenerator.Interface\Docker.RandomGenerator.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

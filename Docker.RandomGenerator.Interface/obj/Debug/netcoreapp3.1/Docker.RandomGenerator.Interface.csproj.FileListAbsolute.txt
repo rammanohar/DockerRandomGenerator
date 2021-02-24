@@ -1,0 +1,12 @@
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\bin\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.deps.json
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\bin\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.dll
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\bin\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.pdb
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\bin\Debug\netcoreapp3.1\Docker.RandomGenerator.DataEntities.dll
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\bin\Debug\netcoreapp3.1\Docker.RandomGenerator.DataEntities.pdb
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.csprojAssemblyReference.cache
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.AssemblyInfoInputs.cache
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.AssemblyInfo.cs
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.csproj.CoreCompileInputs.cache
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.csproj.CopyComplete
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.dll
+C:\DockerRandomGenerator\Docker.RandomGenerator.Interface\obj\Debug\netcoreapp3.1\Docker.RandomGenerator.Interface.pdb

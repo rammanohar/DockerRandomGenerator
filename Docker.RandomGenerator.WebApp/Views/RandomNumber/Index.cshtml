@@ -1,0 +1,17 @@
+﻿@model FocusRandonGenerator.WebApp.Models.GeneratedRandonNumber
+
+@{
+    ViewData["Title"] = "Random Number Generator";
+}
+
+<div class="container">
+   
+        <partial name="_Views_RandomNumber" model="Model" />
+         <br/><br />
+        <p>
+            @Html.ActionLink("Click to generate a randomNumbers with custom digits", "CustomRandomNumber")
+        </p>
+    </div>
+
+   
+

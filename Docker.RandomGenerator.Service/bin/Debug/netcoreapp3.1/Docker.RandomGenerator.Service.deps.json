@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Docker.RandomGenerator.Service/1.0.0": {
+        "dependencies": {
+          "Docker.RandomGenerator.DataEntities": "1.0.0",
+          "Docker.RandomGenerator.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Docker.RandomGenerator.Service.dll": {}
+        }
+      },
+      "Docker.RandomGenerator.DataEntities/1.0.0": {
+        "runtime": {
+          "Docker.RandomGenerator.DataEntities.dll": {}
+        }
+      },
+      "Docker.RandomGenerator.Interface/1.0.0": {
+        "dependencies": {
+          "Docker.RandomGenerator.DataEntities": "1.0.0"
+        },
+        "runtime": {
+          "Docker.RandomGenerator.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Docker.RandomGenerator.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Docker.RandomGenerator.DataEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Docker.RandomGenerator.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

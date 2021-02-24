@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FocusRandomGenerator.Interface/1.0.0": {
+        "dependencies": {
+          "FocusRandomGenerator.DataEntities": "1.0.0"
+        },
+        "runtime": {
+          "FocusRandomGenerator.Interface.dll": {}
+        }
+      },
+      "FocusRandomGenerator.DataEntities/1.0.0": {
+        "runtime": {
+          "FocusRandomGenerator.DataEntities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FocusRandomGenerator.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FocusRandomGenerator.DataEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

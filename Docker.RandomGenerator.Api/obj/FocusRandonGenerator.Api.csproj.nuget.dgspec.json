@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FocusRandomGenerator\\FocusRandonGenerator.Api\\FocusRandonGenerator.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\Focus.RandomGenerator.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\Focus.RandomGenerator.Service.csproj",
+        "projectName": "Focus.RandomGenerator.Service",
+        "projectPath": "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\Focus.RandomGenerator.Service.csproj",
+        "packagesPath": "C:\\Users\\v-ropotu\\.nuget\\packages\\",
+        "outputPath": "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-ropotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj": {
+                "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj"
+              },
+              "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj": {
+                "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj",
+        "projectName": "FocusRandomGenerator.DataEntities",
+        "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj",
+        "packagesPath": "C:\\Users\\v-ropotu\\.nuget\\packages\\",
+        "outputPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-ropotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj",
+        "projectName": "FocusRandomGenerator.Interface",
+        "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj",
+        "packagesPath": "C:\\Users\\v-ropotu\\.nuget\\packages\\",
+        "outputPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-ropotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj": {
+                "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.DataEntities\\FocusRandomGenerator.DataEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FocusRandomGenerator\\FocusRandonGenerator.Api\\FocusRandonGenerator.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FocusRandomGenerator\\FocusRandonGenerator.Api\\FocusRandonGenerator.Api.csproj",
+        "projectName": "FocusRandonGenerator.Api",
+        "projectPath": "C:\\FocusRandomGenerator\\FocusRandonGenerator.Api\\FocusRandonGenerator.Api.csproj",
+        "packagesPath": "C:\\Users\\v-ropotu\\.nuget\\packages\\",
+        "outputPath": "C:\\FocusRandomGenerator\\FocusRandonGenerator.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-ropotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\Focus.RandomGenerator.Service.csproj": {
+                "projectPath": "C:\\FocusRandomGenerator\\Focus.RandomGenerator.Service\\Focus.RandomGenerator.Service.csproj"
+              },
+              "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj": {
+                "projectPath": "C:\\FocusRandomGenerator\\FocusRandomGenerator.Interface\\FocusRandomGenerator.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

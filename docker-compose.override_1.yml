@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  Docker.RandomGenerator.WebApp:
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Production
+    ports:
+      - "80"
+
+  Docker.RandomGenerator.Api:
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Production
+    ports:
+      - "80"
+

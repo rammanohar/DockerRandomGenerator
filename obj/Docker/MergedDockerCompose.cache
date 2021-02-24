@@ -1,0 +1,32 @@
+networks:
+  apiwebnat:
+    driver: bridge
+    name: randomcore-mystagingnetwork
+services:
+  docker.randomgenerator.api:
+    build:
+      context: C:\DockerRandomGenerator
+      dockerfile: Docker.RandomGenerator.Api/Dockerfile
+    container_name: staging-randomgeneratorapi
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Staging
+    image: dockerrandomgeneratorapi:webapi
+    networks:
+      apiwebnat: null
+    ports:
+    - published: 6001
+      target: 80
+  docker.randomgenerator.webapp:
+    build:
+      context: C:\DockerRandomGenerator
+      dockerfile: Docker.RandomGenerator.WebApp/Dockerfile
+    container_name: Staging-randomcoreapiwebapp
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Staging
+    image: dockerrandomgeneratorapp:webapp
+    networks:
+      apiwebnat: null
+    ports:
+    - published: 6002
+      target: 80
+version: '3.4'

@@ -1,0 +1,84 @@
+networks:
+  apiwebnat:
+    driver: bridge
+    name: randomcore-mystagingnetwork
+services:
+  docker.randomgenerator.api:
+    build:
+      context: C:\DockerRandomGenerator
+      dockerfile: Docker.RandomGenerator.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Docker.RandomGenerator.Api
+      target: base
+    container_name: staging-randomgeneratorapi
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Staging
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: dockerrandomgeneratorapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/netcoreapp3.1/Docker.RandomGenerator.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      apiwebnat: {}
+    ports:
+    - published: 6001
+      target: 80
+    tty: true
+    volumes:
+    - C:\DockerRandomGenerator\Docker.RandomGenerator.Api:/app:rw
+    - C:\Users\v-ropotu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\v-ropotu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\v-ropotu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\v-ropotu\.nuget\packages:/root/.nuget/packages:ro
+    - C:\DockerRandomGenerator:/src:rw
+  docker.randomgenerator.webapp:
+    build:
+      context: C:\DockerRandomGenerator
+      dockerfile: Docker.RandomGenerator.WebApp/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Docker.RandomGenerator.WebApp
+      target: base
+    container_name: Staging-randomcoreapiwebapp
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRNOMENT: Staging
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: dockerrandomgeneratorapp:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/netcoreapp3.1/Docker.RandomGenerator.WebApp.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      apiwebnat: {}
+    ports:
+    - published: 6002
+      target: 80
+    tty: true
+    volumes:
+    - C:\DockerRandomGenerator\Docker.RandomGenerator.WebApp:/app:rw
+    - C:\Users\v-ropotu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\v-ropotu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\v-ropotu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\v-ropotu\.nuget\packages:/root/.nuget/packages:ro
+    - C:\DockerRandomGenerator:/src:rw
+version: '3.4'

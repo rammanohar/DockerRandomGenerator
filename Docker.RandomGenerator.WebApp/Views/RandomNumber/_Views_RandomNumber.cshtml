@@ -1,0 +1,61 @@
+﻿@model FocusRandonGenerator.WebApp.Models.GeneratedRandonNumber
+
+
+
+
+    <h4>GeneratedRandonNumber</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col">
+            @Html.DisplayNameFor(model => model.NoofRandomnumbers)
+        </dt>
+        <dd class="col">
+            @Html.DisplayFor(model => model.NoofRandomnumbers)
+        </dd>
+        <dt class="col">
+            @Html.DisplayNameFor(model => model.GeneratorDateTime)
+        </dt>
+        <dd class="col">
+            @Html.DisplayFor(model => model.GeneratorDateTime)
+        </dd>
+    </dl>
+    <div class="container">
+        @{
+            if (Model?.RandonNumbers?.Count > 0)
+            {
+                <div class="row">
+
+                    @foreach (var item in Model.RandonNumbers)
+                    {
+                        //var info = string.Format("{0} {1}", item.Number, string.Empty);
+                        <div class="col">
+                            @Html.DisplayFor(modelItem => item.Number)
+                        </div>
+
+                    }
+                </div>
+
+                <p> </p>
+                <div class="row">
+
+                    @foreach (var item in Model.RandonNumbers)
+                    {
+                        <div class="col" style="background-color: @item.ColorName">
+
+                            @Html.DisplayFor(modelItem => item.Number)
+
+
+                        </div>
+
+                    }
+
+                </div>
+
+
+            }
+        }
+
+    </div>
+
+
+
